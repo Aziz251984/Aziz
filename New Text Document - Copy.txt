@@ -1,0 +1,7 @@
+
+astrix = '******'; 
+leng = input('Enter any character: '); 
+for i = 1:leng
+    disp(astrix) 
+end
+disp('Solid Square') 

@@ -1,0 +1,19 @@
+
+leng = input('Input any number: '); 
+
+for i = 1:leng
+    
+    num_spaces = height - i;
+    num_asterisks = 2*i - 1;
+    
+    
+    for j = 1:num_spaces
+        fprintf(' ');
+    end
+    for j = 1:num_asterisks
+        fprintf('*');
+    end
+    
+    
+    fprintf('\n');
+end

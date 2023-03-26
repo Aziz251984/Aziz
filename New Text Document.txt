@@ -1,0 +1,11 @@
+
+leng = input('input number: '); 
+astrix_top_bottom = '******'; 
+astrix_border = '*     *'; 
+disp(astrix_top_bottom) 
+for i = 1:leng
+    disp(astrix_border) 
+end
+disp(astrix_top_bottom)
+disp('Open Square') 
+
